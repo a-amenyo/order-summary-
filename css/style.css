@@ -21,7 +21,7 @@ body{
 .order-summary-card{
     background-repeat: no-repeat;
     width: 28.5rem;
-    /* height: 40rem; */
+    height: 42rem;
     /* to center the card do this below  */
     position: absolute;
     top: 50%;
