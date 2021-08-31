@@ -43,7 +43,8 @@ section p {
     color: gray;
 }
 
-
+/* USING GRID  */
+/* 
 #annual-plan-card{
     background-color:#E8F6EF;
     width: 70%;
@@ -54,9 +55,8 @@ section p {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
  }
-
     
-.year-plan{
+ .year-plan{
     margin-top: 18px;
     text-align: left;
 }
@@ -77,10 +77,48 @@ section p {
     margin-top: 35px;
     margin-right: 10px;
     font-weight: bold;
+} */
+
+/* GRID METHOD ENDS HERE  */
+
+/* ***************************************************************************** */
+
+/* USING FLEX  */
+
+
+  #annual-plan-card{
+    background-color:#E8F6EF;
+    width: 70%;
+    padding: .625rem;
+    border-radius: 0.5rem;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+ }
+ .year-plan {
+     margin-left: 2px;
+ }
+
+#price{
+    color: gray ;
+    font-weight: bold;
 }
+#plan{
+    color: #293351 ;
+    font-weight: bold;
+}
+
+#annual-plan-card > a {
+    margin-right: 10px;
+    font-weight: bold;
+} 
+
+/* FLEX METHOD ENDS HERE  */
 #music{
     width: 2.5rem;
-    display: inline;
     margin-top: 1.25rem;
 }
 
@@ -98,6 +136,8 @@ button{
     font-weight: bold;
     font-size: medium;
     width: 85%;
+    cursor: pointer;
+
 }
 .order-section a{
     text-decoration: none;
