@@ -1,21 +1,20 @@
 *{
+    /* creates 0 margin and zero padding on the web browser you are using  */
     margin:0;
     padding:0;
-    font-family: Bitter;
 }
 
 body{
     padding: 3.125rem;
-    background-color: aquamarine;
-    font-family: Bitter;
+    background-color: #C1CFC0;
 }
 
 .container {
     padding: 3.125rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .order-summary-card{
-
     background-repeat: no-repeat;
     width: 28.5rem;
     height: 40rem;
@@ -25,10 +24,10 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align:center;
-
     background-color: white;
     border-radius: 1.25rem;
-    backdrop-filter: blur (.25rem);
+    backdrop-filter: blur(20px);
+   
 }
 .order-summary-card img {
     width: 28.5rem;
@@ -36,6 +35,75 @@ body{
     border-top-right-radius: 1rem;
     margin-bottom: 1.25rem;
 }
-#music{
-    width: 50px;
+h2{
+    color: #202b48;
+    font-weight: bold;
 }
+section p {
+    color: gray;
+}
+
+
+#annual-plan-card{
+    background-color:#E8F6EF;
+    width: 70%;
+    padding: .625rem;
+    border-radius: 0.5rem;
+    margin: auto;
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+ }
+
+    
+.year-plan{
+    margin-top: 18px;
+    text-align: left;
+}
+.year-plan p{
+    display: flex;
+    margin: 5px 0px;
+}
+#price{
+    color: gray ;
+    font-weight: bold;
+}
+#plan{
+    color: #293351 ;
+    font-weight: bold;
+}
+
+#annual-plan-card > a {
+    margin-top: 35px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+#music{
+    width: 2.5rem;
+    display: inline;
+    margin-top: 1.25rem;
+}
+
+.order-section{
+    margin: auto;
+    padding: 1.5625rem;
+}
+button{
+    margin-bottom: 1.5625rem;
+    padding: .625rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: #382ae1;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    width: 85%;
+}
+.order-section a{
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+}
+
+/* ideally all sizes should be in rem not px.
+ but if you choose one just stick with it (i didnt cos i was in a hurry */
